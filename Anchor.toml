@@ -7,7 +7,7 @@ skip-lint = false
 
 [programs.localnet]
 day_1 = "5dUwkHQDurqJFEky2sHpnVJ4Xob7W9GAMr3XWThCMmCc"
-solana_course = "ANXHZJtv4DssRy15ntqSAVsQs2oLCEbBkgoyBH2exWp6"
+day_2 = "5PgNrb46oPVRQR1pm711prm9NDcRHB2HWtqLeL8ogjpG"
 
 [registry]
 url = "https://api.apr.dev"
