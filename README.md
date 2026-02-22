@@ -58,3 +58,12 @@ supports, roughly equivalent to the external and public functions on an Ethereum
 *An IDL file in Solana plays a similar role as the ABI file in Solidity, specifying how to interact with the program’s/contract’s.*
 
 > Anchor interprets snake_case functions in Rust as camelCase functions in the Typescript tests.
+
+### Intro to errors
+
+- Solana has the require! macro which is no different to require in solidity.
+- In Solidity, the require statement halts the execution with the revert op code.
+    Solana does not halt execution but simply returns a different value.
+    This is analogous to how linux returns 0 or 1 on success. If a 0 is returned
+    (equivalent of returning Ok(())), everything went smoothly.
+- [solana error reference](https://www.anchor-lang.com/docs/features/errors)
