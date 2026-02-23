@@ -67,3 +67,14 @@ supports, roughly equivalent to the external and public functions on an Ethereum
     This is analogous to how linux returns 0 or 1 on success. If a 0 is returned
     (equivalent of returning Ok(())), everything went smoothly.
 - [solana error reference](https://www.anchor-lang.com/docs/features/errors)
+
+### Solana programs deployment
+
+- Solana programs deployed via Anchor are upgradeable (mutable) by default,
+    because they use the upgradeable loader and have an upgrade authority.
+- A program can be developed and upgraded multiple times while the upgrade
+    authority exists; once finalized, the upgrade authority can be removed
+    to make the program immutable.
+- Deployment or upgrade is controlled by the Anchor CLI. When running tests,
+    the --skip-deploy flag prevents Anchor from deploying or upgrading the program,
+    allowing tests to run against the already deployed on-chain version.
