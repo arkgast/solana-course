@@ -11,6 +11,7 @@ day_2 = "5PgNrb46oPVRQR1pm711prm9NDcRHB2HWtqLeL8ogjpG"
 day_3 = "7aVVoCgRAmdqTkEHoVUegndGgG6Kc5nNNFmkdXkXTJgs"
 day_4 = "2SmsGsCi6NmAVppHjXHsewEi5uGx5fvaPvcahPYpstAp"
 day_5 = "3ZecEBnrkQu31ZX2w4bU3d4Y6aLPAHENQqLxEtq8BqET"
+day_6 = "DU9N5zmzYE1ECamEBhXmgTqnBBryusUx1wzavLXx6bPy"
 
 [registry]
 url = "https://api.apr.dev"
